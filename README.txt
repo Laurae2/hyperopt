@@ -1,5 +1,7 @@
 # FIXED INSTALLATION OF HYPEROPT
 
+INSTALLATION: pip install git+git://github.com/Laurae2/hyperopt.git
+
 This fork is a fix for hyperopt installation that was either:
 - Failing to install for some reason (renewang: https://github.com/hyperopt/hyperopt/issues/231)
 - Failing to run properly due to fmin "module" (ghost: https://github.com/hyperopt/hyperopt/issues/234)
